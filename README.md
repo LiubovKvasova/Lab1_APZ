@@ -1,2 +1,10 @@
-# Lab1_APZ
-Lab1
+
+
+
+
+
+
+
+
+## Members of team
+Liubov Kvasova Yulia Lehenka Anastasia Fartushnyak
