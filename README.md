@@ -1,2 +1,1 @@
-# Lab1_APZ
-Lab1
+# Software Architecture Laboratory Work №1
