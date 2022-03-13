@@ -1,5 +1,4 @@
 # Software Architecture Laboratory Work №1
-
 ## Topic 
 Git and HTTP server
 ## Objective 
