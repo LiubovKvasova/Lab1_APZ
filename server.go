@@ -17,6 +17,9 @@ func timeRequest(rw http.ResponseWriter, req *http.Request){
     response["time"] = timeBroadcast
 
     error := json.NewEncoder(rw).Encode(response)
+	if error != nil {
+		log.Fatalf("Error happened in while encoding. Error: %s", error)
+	}
 }
 
 func main() {
