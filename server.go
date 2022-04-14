@@ -11,6 +11,12 @@ func timeRequest(rw http.ResponseWriter, req *http.Request){
 
 	rw.Header().Set("Content-Type", "application/json")
 	timeBroadcast := time.Now().Format(time.RFC3339)
+
+	response := make(map[string]string)
+
+    response["time"] = timeBroadcast
+
+    error := json.NewEncoder(rw).Encode(response)
 }
 
 func main() {
