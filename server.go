@@ -18,7 +18,7 @@ func timeRequest(rw http.ResponseWriter, req *http.Request){
 
     error := json.NewEncoder(rw).Encode(response)
 	if error != nil {
-		log.Fatalf("Error happened in while encoding. Error: %s", error)
+		log.Fatalf("Error occurred. Try again:) Error: %s", error)
 	}
 }
 
